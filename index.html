@@ -447,11 +447,21 @@
                 <label for="coment" class="modal-label">Комментарий</label>
                     <textarea name="user-text" id="coment" class="modal-coment" placeholder="Введите текст"></textarea>
             </div>
-            <label for="" class="check">
-                <input type="checkbox" class="input-check">
-                Соглашаюсь с рассылкой и принимаю 
-                <a class="check-agreement" href="#">Условия договора</a> 
-            </label>
+           
+                
+               
+                <label for="privacy" class="check-label">
+                    <input type="checkbox" name="privacy" id="privacy" class="input-check visually-hidden ">
+                    <span class="chech-icon" >
+                        <svg width="11" height="8">
+                            <use href="./images/symbol-defs.svg#icon-icon-check"></use>
+                        </svg>
+                    </span>
+                     Соглашаюсь с рассылкой и принимаю 
+                  <a class="modal-agreement" href="#"> Условия договора</a>  
+                </label>
+               
+          
             <button type="submit" class="modal-btn">Отправить</button>
         </form>
        </div> 

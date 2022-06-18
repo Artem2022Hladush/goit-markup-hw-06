@@ -821,6 +821,9 @@ letter-spacing: 0.01em;
 color: var(--primary-text-color);
 }
 
+
+
+
 .modal-coment {
     width: 100%;
     height: 120px;
@@ -865,6 +868,54 @@ color: rgba(117, 117, 117, 0.5);
     letter-spacing: 0.06em;
 
     color: var(--primary-white-color);
+}
+
+/* check */
+
+
+
+.check-label {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.chech-icon {
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--title-text-color);
+    border-radius: 2px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-agreement {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+
+color: var(--accent-color);
 }
 
 /* footer-form-sub */
@@ -917,41 +968,6 @@ color: rgba(117, 117, 117, 0.5);
     color: rgba(255, 255, 255, 0.6);
 }
 
-.check {
-    margin-left: 12px;
-    
-}
-
-.input-check {
-    margin-top: 10px;
-}
-
-.input-check {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-
-
-letter-spacing: 0.03em;
-
-color: var(--primary-text-color);
-}
-
-.check-agreement {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-
-    letter-spacing: 0.03em;
-    text-decoration-line: underline;
-
-    color: var(--accent-color) ;
-}
 
 
 
